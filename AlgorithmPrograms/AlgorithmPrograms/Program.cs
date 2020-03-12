@@ -15,6 +15,8 @@ namespace AlgorithmPrograms
                     Console.WriteLine("\n\t1.Bubble Sort");
                     Console.WriteLine("\t2.Prime Number in Range");
                     Console.WriteLine("\t3.Insertion Sort");
+                    Console.WriteLine("\t4.Check Anagram");
+
                     Console.WriteLine("\t6.Exit\n");
 
                     Console.Write("\tEnter your choice: ");
@@ -29,6 +31,9 @@ namespace AlgorithmPrograms
                             break;
                         case 3:
                             InsertionSort.Input();
+                            break;
+                        case 4:
+                            CheckAnagram.Input();
                             break;
                         case 6:
                             flag = false;

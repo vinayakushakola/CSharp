@@ -50,7 +50,7 @@ namespace AlgorithmPrograms
                 }
                 else
                 {
-                    Console.WriteLine("{0} is not a Prime Number");
+                    Console.WriteLine("{0} is not a Prime Number", number);
                 }
             }
         }
@@ -77,6 +77,67 @@ namespace AlgorithmPrograms
             {
                 Console.Write(arr[k] + " ");
             }
+        }
+
+        public static void CheckAnagram(string string1, string string2)
+        {
+            int i, flag = 0;
+
+            if (string1.Length != string2.Length)
+            {
+                return;
+            }
+
+            char[] aS1 = new char[string1.Length];
+            char[] aS2 = new char[string2.Length];
+
+            for (i = 0; i < string1.Length; i++)
+            {
+                aS1[i] = string1[i];
+            }
+
+            for (i = 0; i < string2.Length; i++)
+            {
+                aS2[i] = string2[i];
+            }
+
+            aS1 = SortChar(aS1);
+            Console.WriteLine(aS1);
+            aS2 = SortChar(aS2);
+            Console.WriteLine(aS2);
+
+            for (i = 0; i < string1.Length; i++)
+            {
+                if (aS1[i] != aS2[i])
+                {
+                    flag = 1;
+                    break;
+                }
+            }
+
+            if (flag == 0)
+            {
+                Console.WriteLine(string1 + " and " + string2 + " are anagrams ");
+            }
+        }
+
+        public static char[] SortChar(char[] s)
+        {
+            char temp;
+            int length = s.Length;
+            for(int i=0; i<length; i++)
+            {
+                for(int j=i+1; j<length;j++)
+                {
+                    if (s[i] > s[j])
+                    {
+                        temp = s[i];
+                        s[i] = s[j];
+                        s[j] = temp;
+                    }
+                }
+            }
+            return s;            
         }
     }
 }
