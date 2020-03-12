@@ -25,7 +25,7 @@ namespace AlgorithmPrograms
             return;
         }
 
-        public static void PrimeNumber(int user_range)
+        public static void PrimeNumberRange(int user_range)
         {
             int number;
 
@@ -102,9 +102,7 @@ namespace AlgorithmPrograms
             }
 
             aS1 = SortChar(aS1);
-            Console.WriteLine(aS1);
             aS2 = SortChar(aS2);
-            Console.WriteLine(aS2);
 
             for (i = 0; i < string1.Length; i++)
             {
@@ -138,6 +136,67 @@ namespace AlgorithmPrograms
                 }
             }
             return s;            
+        }
+
+        public static bool PrimeNumber(int num)
+        {
+            if (num > 1)
+            {
+                bool flag = true;
+                for(int n=2; n<=num/2; n++)
+                {
+                    if (num%n == 0)
+                    {
+                        flag = false;
+                        return false;
+                    }
+                }
+                if (flag)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool IsPalindrome(int n)
+        {
+            int r, sum = 0;
+            int temp = n;
+            while (n > 0)
+            {
+                r = n % 10;
+                sum = (sum * 10) + r;
+                n = n / 10;
+            }
+            if (temp == sum)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public static void PrimeAnagramPalindrome(int num)
+        {
+            if (Utility.PrimeNumber(num))
+            {
+                Console.Write("{0} is Prime Number ", num);
+                if (Utility.IsPalindrome(num))
+                {
+                    Console.Write("and Palindrome");
+                }
+                else
+                {
+                    Console.WriteLine("and not Palindrome");
+                }
+            }
+            else
+            {
+                Console.WriteLine("{0} is not a Prime Number", num);
+            }
         }
     }
 }

@@ -16,8 +16,11 @@ namespace AlgorithmPrograms
                     Console.WriteLine("\t2.Prime Number in Range");
                     Console.WriteLine("\t3.Insertion Sort");
                     Console.WriteLine("\t4.Check Anagram");
+                    Console.WriteLine("\t5.Prime Number");
+                    Console.WriteLine("\t6.Palindrome");
+                    Console.WriteLine("\t7.Prime Number that are Anagram or Palindrome");
 
-                    Console.WriteLine("\t6.Exit\n");
+                    Console.WriteLine("\t8.Exit\n");
 
                     Console.Write("\tEnter your choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
@@ -27,7 +30,7 @@ namespace AlgorithmPrograms
                             BubbleSort.Input();
                             break;
                         case 2:
-                            PrimeNumber.Input();
+                            PrimeNumberRange.Input();
                             break;
                         case 3:
                             InsertionSort.Input();
@@ -35,7 +38,16 @@ namespace AlgorithmPrograms
                         case 4:
                             CheckAnagram.Input();
                             break;
+                        case 5:
+                            PrimeNumber.Input();
+                            break;
                         case 6:
+                            IsPalindrome.Input();
+                            break;
+                        case 7:
+                            PrimeAnagramPalindrome.Input();
+                            break;
+                        case 8:
                             flag = false;
                             break;
                         default:

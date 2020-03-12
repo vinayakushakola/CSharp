@@ -4,13 +4,13 @@ using System.Text;
 
 namespace AlgorithmPrograms
 {
-    public class PrimeNumber
+    class PrimeAnagramPalindrome
     {
         public static void Input()
         {
             Console.Write("Enter a number: ");
             int num = Convert.ToInt32(Console.ReadLine());
-            Utility.PrimeNumber(num);
+            Utility.PrimeAnagramPalindrome(num);
         }
     }
 }
