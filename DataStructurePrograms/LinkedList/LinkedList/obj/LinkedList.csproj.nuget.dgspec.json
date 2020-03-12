@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\LinkedList\\LinkedList\\LinkedList.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\LinkedList\\LinkedList\\LinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\LinkedList\\LinkedList\\LinkedList.csproj": {
+    "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\LinkedList\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\LinkedList\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\LinkedList\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\LinkedList\\LinkedList\\LinkedList.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\LinkedList\\LinkedList\\LinkedList.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\LinkedList\\LinkedList\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\LinkedList\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

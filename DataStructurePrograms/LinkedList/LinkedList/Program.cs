@@ -12,8 +12,10 @@ namespace LinkedList
             {
                 try
                 {
-                    Console.WriteLine("\n\n1.Unoredered Linked List");
-                    Console.WriteLine("2.Exit");
+                    Console.WriteLine("\n\n1.Unordered Linked List");
+                    Console.WriteLine("\n\n2.Ordered Linked List");
+
+                    Console.WriteLine("3.Exit");
                     Console.Write("Enter your choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -21,7 +23,7 @@ namespace LinkedList
                         case 1:
                             Console.Write("Enter the file name: ");
                             string textFile = Console.ReadLine();
-                            string path = @"C:\Users\User\source\repos\Vinayak\CSharp\LinkedList\LinkedList\" + textFile;
+                            string path = @"C:\Users\User\source\repos\Vinayak\CSharp\DataStructurePrograms\LinkedList\LinkedList\" + textFile;
                             string[] lines = File.ReadAllLines(path);
                             LinkedList<string> llist = new LinkedList<string>();
                             foreach (string line in lines)
@@ -54,6 +56,41 @@ namespace LinkedList
                             writetext.Close();
                             break;
                         case 2:
+                            Console.Write("Enter the file name: ");
+                            string textFile2 = Console.ReadLine();
+                            string path2 = @"C:\Users\User\source\repos\Vinayak\CSharp\DataStructurePrograms\LinkedList\LinkedList\" + textFile2;
+                            string[] lines2 = File.ReadAllLines(path2);
+                            LinkedList<string> llist2 = new LinkedList<string>();
+                            foreach (string line in lines2)
+                            {
+                                string[] words = line.Split(" ");
+                                foreach (string word in words)
+                                {
+                                    llist2.AddToEnd(word);
+                                }
+                            }
+                            Console.Write("\nFile contents in the list is: ");
+                            llist2.ShowList();
+
+                            Console.Write("\nEnter the number to be searched: ");
+                            string numSearch = Console.ReadLine();
+                            if (llist2.Search(numSearch))
+                            {
+                                llist2.DeleteNode(numSearch);
+                                Console.WriteLine("\nNumber " + numSearch + " found in the Linked List and deleted\n");
+                            }
+                            else
+                            {
+                                llist2.AddToEnd(numSearch);
+                                Console.WriteLine("\nNumber " + numSearch + " not found in the Linked List\n");
+                            }
+                            string createText2 = llist2.FileDisplay();
+                            Console.WriteLine(createText2);
+                            StreamWriter writetext2 = new StreamWriter(path2);
+                            writetext2.WriteLine(createText2);
+                            writetext2.Close();
+                            break;
+                        case 3:
                             flag = false;
                             break;
                     }
