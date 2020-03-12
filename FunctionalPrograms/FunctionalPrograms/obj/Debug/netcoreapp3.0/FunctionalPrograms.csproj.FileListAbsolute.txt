@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.0\FunctionalPrograms.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.0\FunctionalPrograms.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.0\FunctionalPrograms.AssemblyInfo.cs
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.exe
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.deps.json
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.runtimeconfig.json
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.runtimeconfig.dev.json
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.dll
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\bin\Debug\netcoreapp3.0\FunctionalPrograms.pdb
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.0\FunctionalPrograms.dll
+C:\Users\User\source\repos\Vinayak\FunctionalPrograms\FunctionalPrograms\obj\Debug\netcoreapp3.0\FunctionalPrograms.pdb
