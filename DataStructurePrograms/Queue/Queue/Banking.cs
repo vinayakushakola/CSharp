@@ -17,24 +17,20 @@ namespace Queue
 
                 for (int i = 1; i <= numberofpeople; i++)
                 {
-                    Console.WriteLine("User " + i + ":");
-
                     queue.Enqueue(i);
-
                 }
 
                 if (numberofpeople > 0)
                 {
+                    Console.WriteLine("\n......Transactions......");
                     for (int i = 1; i <= numberofpeople; i++)
                     {
-                        Console.WriteLine("\nTransactions......");
+                        Console.WriteLine("\nTransaction Of User" + i + ":");
                         Console.Write("\nPress Key : \n\t 1. Deposit \n\t 2. Withdraw:\n");
                         int key = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Transaction Of User" + i + ":");
                         queue.Dequeue();
                         if (key == 1)
                         {
-
                             Console.Write("\nEnter total amount do you want to deposit:");
                             int deposit = Convert.ToInt32(Console.ReadLine());
                             if (deposit > 0)
@@ -67,7 +63,7 @@ namespace Queue
                         }
                         else
                         {
-                            Console.WriteLine("Insure that you enter correct key");
+                            Console.WriteLine("Ensure that you enter correct key");
                         }
                     }
                 }

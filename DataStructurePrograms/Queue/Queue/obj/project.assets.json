@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\Queue\\Queue\\Queue.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\Queue\\Queue\\Queue.csproj",
       "projectName": "Queue",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\Queue\\Queue\\Queue.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\Queue\\Queue\\Queue.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\Queue\\Queue\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Vinayak\\CSharp\\DataStructurePrograms\\Queue\\Queue\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
