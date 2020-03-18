@@ -1,0 +1,13 @@
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.exe
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.csprojAssemblyReference.cache
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.AssemblyInfoInputs.cache
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.AssemblyInfo.cs
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.deps.json
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.runtimeconfig.json
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.runtimeconfig.dev.json
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.dll
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\ObjectOrientedProgramming.pdb
+D:\CSharp\ObjectOrientedProgramming\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.csproj.CopyComplete
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.dll
+D:\CSharp\ObjectOrientedProgramming\obj\Debug\netcoreapp3.1\ObjectOrientedProgramming.pdb
