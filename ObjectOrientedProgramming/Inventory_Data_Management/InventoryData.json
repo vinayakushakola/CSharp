@@ -1,0 +1,53 @@
+{
+  "Rice": [
+    {
+      "name": "Basmati",
+      "weight": 50,
+      "price": 90
+    },
+    {
+      "name": "Brown",
+      "weight": 10,
+      "price": 75
+    },
+    {
+      "name": "White",
+      "weight": 100,
+      "price": 65
+    }
+  ],
+  "Pulses": [
+    {
+      "name": "Lentils",
+      "weight": 100,
+      "price": 120
+    },
+    {
+      "name": "Chick Peas",
+      "weight": 2,
+      "price": 300
+    },
+    {
+      "name": "Beans",
+      "weight": 1,
+      "price": 320
+    }
+  ],
+  "Wheats": [
+    {
+      "name": "Bran",
+      "weight": 50,
+      "pricePerKg": 80
+    },
+    {
+      "name": "Cereal",
+      "weight": 5,
+      "pricePerKg": 70
+    },
+    {
+      "name": "Flour",
+      "weight": 10,
+      "price": 60
+    }
+  ]
+}
