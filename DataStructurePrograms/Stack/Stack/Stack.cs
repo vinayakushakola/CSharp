@@ -4,15 +4,9 @@ namespace Stack
 {
     public class Stack
     {
-        private int[] stack;
+        private char[] stack = new char[50];
 
-        public Stack(int size)
-        {
-            this.stack = new int[size];
-            this.Count = 0;
-        }
-
-        public int Count { get; private set; }
+        public int Count = 0;
 
         public int Push(char n)
         {
@@ -33,7 +27,7 @@ namespace Stack
             int result = -1;
             if (this.Count == 0)
             {
-                Console.WriteLine("Stack is empty");
+                Count--;
             }
             else
             {

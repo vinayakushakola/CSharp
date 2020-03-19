@@ -13,8 +13,8 @@ namespace Stack
             switch (choice)
             {
                 case 1:
-                    BalancedParenthesis balanced= new BalancedParenthesis();
-                    balanced.CheckExpressionBalancedOrNot();
+                    BalancedParenthesis balanced = new BalancedParenthesis();
+                    balanced.IsParenthesisBalanced();
                     break;
                 case 2:
                     break;

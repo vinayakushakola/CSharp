@@ -9,3 +9,14 @@ C:\Users\User\source\repos\Vinayak\CSharp\Stack\Stack\obj\Debug\netcoreapp3.0\St
 C:\Users\User\source\repos\Vinayak\CSharp\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.AssemblyInfo.cs
 C:\Users\User\source\repos\Vinayak\CSharp\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.dll
 C:\Users\User\source\repos\Vinayak\CSharp\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.pdb
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.exe
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.deps.json
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.runtimeconfig.json
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.runtimeconfig.dev.json
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.dll
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\bin\Debug\netcoreapp3.0\Stack.pdb
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.csprojAssemblyReference.cache
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.AssemblyInfoInputs.cache
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.AssemblyInfo.cs
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.dll
+D:\Github\CSharp\DataStructurePrograms\Stack\Stack\obj\Debug\netcoreapp3.0\Stack.pdb

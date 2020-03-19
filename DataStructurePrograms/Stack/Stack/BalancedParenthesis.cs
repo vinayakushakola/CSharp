@@ -4,68 +4,42 @@ namespace Stack
 {
     public class BalancedParenthesis
     {
-        public void CheckExpressionBalancedOrNot()
+        public Boolean CheckParenthesis(string Parenthesis)
+        {
+            Stack stack = new Stack();
+            char[] parent = Parenthesis.ToCharArray();
+
+            for (int i = 0; i < Parenthesis.Length; i++)
+            {
+                if (parent[i] == '(')
+                    stack.Push(parent[i]);
+                else if (parent[i] == ')')
+                    stack.Pop();
+            }
+
+            if (stack.IsEmpty())
+                return true;
+            else
+                return false;
+        }
+        public void IsParenthesisBalanced()
         {
             try
             {
-                Console.WriteLine("Enter Arithmatic Expression for checked");
-                string expression = Console.ReadLine();
-                char[] expressioncharArray = expression.ToCharArray();
-                int size = expressioncharArray.Length;
-                CheckedBalanceParenthesis(expressioncharArray);
+                Console.Write("Enter the Arithmetic Expression: ");
+                string str = Console.ReadLine();
+
+
+                if (CheckParenthesis(str))
+                    Console.WriteLine("The Arithmetic Expression are Balanced");
+                else
+                    Console.WriteLine("The Arithmetic Expression are not Balanced");
+
             }
-            catch (Exception exception)
+            catch (Exception e)
             {
-                throw new Exception(exception.Message);
-                Console.WriteLine(exception.Message);
+                Console.WriteLine("Message: {0}", e.Message);
             }
-
-
-        }
-        public bool CheckedBalanceParenthesis(char[] expressioncharArray)
-        {
-            Stack stack = new Stack(expressioncharArray.Length);
-            for (int i = 0; i < expressioncharArray.Length; i++)
-            {
-
-                if (expressioncharArray[i] == '(' || expressioncharArray[i] == '{' || expressioncharArray[i] == '[')
-                {
-                    stack.Push(expressioncharArray[i]);
-                }
-
-                if (expressioncharArray[i] == ')' || expressioncharArray[i] == '}' || expressioncharArray[i] == ']')
-                {
-
-
-                    if (stack.IsEmpty())
-                    {
-
-                        return false;
-                    }
-
-                    int top = stack.Pop();
-                    stack.Pop();
-
-                    if ((top == '(' && expressioncharArray[i] != ')') ||
-                        (top == '{' && expressioncharArray[i] != '}') ||
-                        (top == '[' && expressioncharArray[i] != ']'))
-                    {
-
-                        return false;
-                    }
-
-                }
-            }
-            if (stack.IsEmpty())
-            {
-                Console.WriteLine("Expression is Balanced");
-            }
-            else
-            {
-                Console.WriteLine("Expression is not Balanced");
-            }
-
-            return true;
         }
     }
 }
