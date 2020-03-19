@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj": {}
+    "D:\\Github\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj": {}
   },
   "projects": {
-    "D:\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj": {
+    "D:\\Github\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj",
+        "projectUniqueName": "D:\\Github\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj",
         "projectName": "ObjectOrientedProgramming",
-        "projectPath": "D:\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj",
+        "projectPath": "D:\\Github\\CSharp\\ObjectOrientedProgramming\\ObjectOrientedProgramming.csproj",
         "packagesPath": "C:\\Users\\Vinayak Ushakola\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharp\\ObjectOrientedProgramming\\obj\\",
+        "outputPath": "D:\\Github\\CSharp\\ObjectOrientedProgramming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinayak Ushakola\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Elmah": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
