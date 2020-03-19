@@ -1,4 +1,5 @@
 ﻿using ObjectOrientedProgramming.Inventory_Data_Management;
+using ObjectOrientedProgramming.Inventory_Management;
 using System;
 
 namespace ObjectOrientedProgramming
@@ -14,7 +15,8 @@ namespace ObjectOrientedProgramming
                 try
                 {
                     Console.WriteLine("\t1. Inventory Data Management");
-                    Console.WriteLine("\t2. Exit");
+                    Console.WriteLine("\t2. Inventory Management Program");
+                    Console.WriteLine("\t3. Exit");
                     Console.Write("Enter Your Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -23,6 +25,9 @@ namespace ObjectOrientedProgramming
                             InventoryUtility.InventoryMain();
                             break;
                         case 2:
+                            InventoryManagement.InventoryManager();
+                            break;
+                        case 3:
                             flag = false;
                             break;
                         default:
