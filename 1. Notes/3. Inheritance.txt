@@ -1,0 +1,12 @@
+Inheritance - 
+0. Inheritance allows code reuse
+1. Code reuse less time and errros
+2. Parent class constructor executes before child class constructor
+3. Use the new keyword to hide the base class member. You will get
+   compiler warning if you miss the new keyword.
+
+Different ways to invoke a hidden class member from derived class
+0. Use base keyword
+1. Cast child type to parent type and invoke the hidden member
+2. parentClass PC = new ChildClass();
+   PC.HiddenMethod();

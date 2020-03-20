@@ -1,0 +1,13 @@
+Access Modifiers
+0. Private
+1. Protected
+2. Internal
+3. Protected Internal 
+4. Public
+
+Private - Only with in the containing class.
+Public - Anywhere, No Restricvtions.
+Protected - With in the containing types and the types derived from the containing type.
+Internal - Anywhere with in the containing assembly.
+Protected Internal - Anywhere in the containing assembly and from within a derived class in any another assembly.
+	

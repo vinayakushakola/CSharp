@@ -1,0 +1,19 @@
+Static And Instance
+
+	When a class member includes a static modifier, the member is 
+called as static member. When no static member is present the member is 
+called as non static member or instance member.
+
+Static - 
+0. Static members are invoked using the name of the class.
+1. Static Constructor Does not allow access modifiers.
+2. Static constructors are used to initialize static fields in a class.
+3. Static Constructors are called before instance Constructors.
+4. Static Constructor is called only once.
+
+Instance - 
+0. Instance members are invoked using the instance or object of the class.
+1. An Instance member belongs to specific instance(object) of a class.
+2. If I create 3 objects of a class I will have 3 sets of instance members in the memory,
+   whereas there will be only one copy of a static member.
+

@@ -1,0 +1,13 @@
+Class Members - fields,methods,properties,events,indexers,constructors
+
+Constructor - 
+0. Purpose of a class constructor is to initialize class fields.
+1. Constructor is automatically called then an instance of a classs is created.
+2. Constructor have same name of class.
+3. Cannot return a value there is no return type.
+4. Constructors are not mandatory. If we do not provide a default parameter less constructor is automatically provided.
+5. Constructors can be overloaded by the number & type of paramters.
+
+Destructor - Cannot take parameters
+0. Destructors have the same name as the class with ~(tilda) symbol.
+1. They dont take any parameters & do not return any value.

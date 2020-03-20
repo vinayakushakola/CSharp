@@ -1,0 +1,7 @@
+Polymorphism - 
+0. Polymorphism allows you to invoke derived class methods through a base
+   class reference during runtime.
+1. In the base class the method is declared virtual and in the derived class
+   override the same method
+2. The virtual keyword indicates the method can be overridden in any derived
+   class.
