@@ -1,0 +1,10 @@
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.exe
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.deps.json
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.runtimeconfig.json
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.runtimeconfig.dev.json
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.dll
+D:\Deque\bin\Debug\netcoreapp3.1\Deque.pdb
+D:\Deque\obj\Debug\netcoreapp3.1\Deque.AssemblyInfoInputs.cache
+D:\Deque\obj\Debug\netcoreapp3.1\Deque.AssemblyInfo.cs
+D:\Deque\obj\Debug\netcoreapp3.1\Deque.dll
+D:\Deque\obj\Debug\netcoreapp3.1\Deque.pdb

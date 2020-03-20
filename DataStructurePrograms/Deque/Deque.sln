@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deque", "Deque.csproj", "{9DD8278A-6BF0-425C-BD30-42BE7B0A4CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD8278A-6BF0-425C-BD30-42BE7B0A4CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD8278A-6BF0-425C-BD30-42BE7B0A4CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD8278A-6BF0-425C-BD30-42BE7B0A4CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD8278A-6BF0-425C-BD30-42BE7B0A4CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACD17D2A-8290-47C5-8E4E-D7EE190EE2F2}
+	EndGlobalSection
+EndGlobal
