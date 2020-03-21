@@ -1,0 +1,22 @@
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.exe
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.deps.json
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.runtimeconfig.json
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.runtimeconfig.dev.json
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.dll
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.pdb
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.AssemblyInfo.cs
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.dll
+C:\Users\User\Desktop\Vinayak\OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.pdb
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.exe
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.deps.json
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.runtimeconfig.json
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.runtimeconfig.dev.json
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.dll
+D:\Github\CSharp\2. OOPs\OOPs\bin\Debug\netcoreapp3.0\OOPs.pdb
+D:\Github\CSharp\2. OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.csprojAssemblyReference.cache
+D:\Github\CSharp\2. OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.AssemblyInfoInputs.cache
+D:\Github\CSharp\2. OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.AssemblyInfo.cs
+D:\Github\CSharp\2. OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.dll
+D:\Github\CSharp\2. OOPs\OOPs\obj\Debug\netcoreapp3.0\OOPs.pdb
