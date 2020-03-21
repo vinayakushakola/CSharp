@@ -47,7 +47,6 @@ namespace ObjectOrientedProgramming.Inventory_Management
                         Console.WriteLine();
                         Console.Write("Enter Your Choice: ");
                         flag = int.TryParse(Console.ReadLine(), out choice);
-                        ErrorMessage(flag);
                         if (choice > list.Count)
                         {
                             Console.WriteLine("Invalid Choice !!");
@@ -59,8 +58,8 @@ namespace ObjectOrientedProgramming.Inventory_Management
                         if (count == choice)
                         {
                             Name = li.Name;
-                            weight = Convert.ToInt32(li.Weight);
-                            price = Convert.ToInt32(li.Price);
+                            weight = li.Weight;
+                            price = li.Price;
                             break;
                         }
                         count++;
@@ -71,7 +70,6 @@ namespace ObjectOrientedProgramming.Inventory_Management
                         Console.WriteLine("It's Price is: {0}/kg", price);
                         Console.Write("How Much Quantity Do you want to buy: ");
                         flag = int.TryParse(Console.ReadLine(), out quantity);
-                        ErrorMessage(flag);
                     } while (!flag);
                     if (quantity > weight)
                     {
@@ -92,7 +90,7 @@ namespace ObjectOrientedProgramming.Inventory_Management
                             {
                                 if (count == choice)
                                 {
-                                    li.Weight = weight.ToString();
+                                    li.Weight = weight;
                                     break;
                                 }
                                 count++;
@@ -118,19 +116,6 @@ namespace ObjectOrientedProgramming.Inventory_Management
             {
                 Console.WriteLine("Message: {0}", e.Message);
                 return null;
-            }
-        }
-
-        public static void ErrorMessage(bool flag)
-        {
-            try
-            {
-                if (!flag)
-                    Console.WriteLine("Please Enter the Number. !!");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Message: {0}", e.Message);
             }
         }
     }

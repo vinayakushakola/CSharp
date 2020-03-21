@@ -1,4 +1,5 @@
-﻿using ObjectOrientedProgramming.Inventory_Data_Management;
+﻿using ObjectOrientedProgramming.AddressBook;
+using ObjectOrientedProgramming.Inventory_Data_Management;
 using ObjectOrientedProgramming.Inventory_Management;
 using System;
 
@@ -16,7 +17,8 @@ namespace ObjectOrientedProgramming
                 {
                     Console.WriteLine("\t1. Inventory Data Management");
                     Console.WriteLine("\t2. Inventory Management Program");
-                    Console.WriteLine("\t3. Exit");
+                    Console.WriteLine("\t3. Address Book");
+                    Console.WriteLine("\t4. Exit");
                     Console.Write("Enter Your Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -28,6 +30,9 @@ namespace ObjectOrientedProgramming
                             InventoryManagement.InventoryManager();
                             break;
                         case 3:
+                            AddressBookProgram.AddressBook();
+                            break;
+                        case 4:
                             flag = false;
                             break;
                         default:

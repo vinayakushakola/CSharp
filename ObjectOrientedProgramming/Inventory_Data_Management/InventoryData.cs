@@ -21,8 +21,4 @@ namespace ObjectOrientedProgramming.Inventory_Data_Management
         public string Name { get; set; }
         public int Price { get; set; }
     }
-    class InventoryDataTotalPrice
-    {
-        public List<Prices> Prices { get; set; }
-    }
 }
