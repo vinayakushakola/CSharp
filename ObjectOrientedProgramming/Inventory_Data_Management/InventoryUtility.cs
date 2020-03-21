@@ -13,8 +13,8 @@ namespace ObjectOrientedProgramming.Inventory_Data_Management
             {
                 Console.WriteLine("\n.....Inventory Data Management Program.....");
 
-                string inputPath = @"D:\CSharp\ObjectOrientedProgramming\Inventory_Data_Management\InventoryData.json";
-                string outputPath = @"D:\CSharp\ObjectOrientedProgramming\Inventory_Data_Management\InventoryTotalPrice.json";
+                string inputPath = @"D:\Github\CSharp\ObjectOrientedProgramming\Inventory_Data_Management\InventoryData.json";
+                string outputPath = @"D:\Github\CSharp\ObjectOrientedProgramming\Inventory_Data_Management\InventoryTotalPrice.json";
 
                 string jsonData = File.ReadAllText(inputPath);
 
@@ -39,8 +39,6 @@ namespace ObjectOrientedProgramming.Inventory_Data_Management
                 Console.WriteLine("Total Pulses Amount: Rs.{0}", totalPulsesAmount);
                 Console.WriteLine("Total Wheat Amount: Rs.{0}", totalWheatAmount);
 
-                InventoryDataTotalPrice inventoryTotalPrice = new InventoryDataTotalPrice();
-
                 List<Prices> prices = new List<Prices>();
 
                 Prices ricePrice = new Prices
@@ -61,17 +59,15 @@ namespace ObjectOrientedProgramming.Inventory_Data_Management
                     Price = totalWheatAmount
                 };
 
+                
                 prices.Add(ricePrice);
                 prices.Add(pulsesPrice);
                 prices.Add(wheatPrice);
 
-                inventoryTotalPrice.Prices = prices;
-
-                string inventoryPriceData = JsonConvert.SerializeObject(inventoryTotalPrice);
-
-                using StreamWriter streamwriter = new StreamWriter(outputPath);
-                streamwriter.WriteLine(inventoryPriceData);
-
+                string TotalAmount = JsonConvert.SerializeObject(prices);
+                Console.WriteLine(TotalAmount);
+                //To see on screen
+                //File.WriteAllText(outputPath, jsonOutput);
                 Console.WriteLine("File Saved Successfully");
                 Console.WriteLine("--------------------------------------------------------------------------------\n\n");
             }

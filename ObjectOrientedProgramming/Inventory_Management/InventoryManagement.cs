@@ -45,7 +45,6 @@ namespace ObjectOrientedProgramming.Inventory_Management
                         Console.WriteLine("4. Exit");
                         Console.Write("Enter your Choice: ");
                         inputFlag = int.TryParse(Console.ReadLine(), out choice);
-                        Console.WriteLine(inputFlag);
                     } while (!inputFlag);
                     switch (choice)
                     {
