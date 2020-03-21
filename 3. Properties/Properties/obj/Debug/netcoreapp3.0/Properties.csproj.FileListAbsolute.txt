@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\obj\Debug\netcoreapp3.0\Properties.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\obj\Debug\netcoreapp3.0\Properties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\obj\Debug\netcoreapp3.0\Properties.AssemblyInfo.cs
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\obj\Debug\netcoreapp3.0\Properties.dll
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\obj\Debug\netcoreapp3.0\Properties.pdb
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.exe
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.deps.json
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.runtimeconfig.json
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.runtimeconfig.dev.json
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.dll
+C:\Users\User\Desktop\Vinayak\OOPs\Properties\Properties\bin\Debug\netcoreapp3.0\Properties.pdb
