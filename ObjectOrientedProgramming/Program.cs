@@ -23,7 +23,8 @@ namespace ObjectOrientedProgramming
                     Console.WriteLine("\t3. Address Book");
                     Console.WriteLine("\t4. Stock Account Management");
                     Console.WriteLine("\t5. Deck Of Cards");
-                    Console.WriteLine("\t6. Exit");
+                    Console.WriteLine("\t6. Deck Of Cards Using Queue");
+                    Console.WriteLine("\t7. Exit");
                     Console.Write("Enter Your Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -44,6 +45,9 @@ namespace ObjectOrientedProgramming
                             DeckOfCardsProgram.DeckOfCards();
                             break;
                         case 6:
+                            DeckOfCardsQueueProgram.DeckOfCardsQueue();
+                            break;
+                        case 7:
                             flag = false;
                             break;
                         default:
