@@ -1,4 +1,5 @@
 ﻿using ObjectOrientedProgramming.AddressBook;
+using ObjectOrientedProgramming.DeckOfCards;
 using ObjectOrientedProgramming.Inventory_Data_Management;
 using ObjectOrientedProgramming.Inventory_Management;
 using ObjectOrientedProgramming.StockAccountManagement;
@@ -16,11 +17,13 @@ namespace ObjectOrientedProgramming
             {
                 try
                 {
+                    Console.WriteLine("\n");
                     Console.WriteLine("\t1. Inventory Data Management");
                     Console.WriteLine("\t2. Inventory Management Program");
                     Console.WriteLine("\t3. Address Book");
                     Console.WriteLine("\t4. Stock Account Management");
-                    Console.WriteLine("\t5. Exit");
+                    Console.WriteLine("\t5. Deck Of Cards");
+                    Console.WriteLine("\t6. Exit");
                     Console.Write("Enter Your Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -38,6 +41,9 @@ namespace ObjectOrientedProgramming
                             StockReportProgram.StockReport();
                             break;
                         case 5:
+                            DeckOfCardsProgram.DeckOfCards();
+                            break;
+                        case 6:
                             flag = false;
                             break;
                         default:
@@ -45,7 +51,7 @@ namespace ObjectOrientedProgramming
                             break;
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex);
                 }

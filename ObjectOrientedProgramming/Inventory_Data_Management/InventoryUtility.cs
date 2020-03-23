@@ -66,8 +66,8 @@ namespace ObjectOrientedProgramming.Inventory_Data_Management
 
                 string TotalAmount = JsonConvert.SerializeObject(prices);
                 Console.WriteLine(TotalAmount);
-                //To see on screen
-                //File.WriteAllText(outputPath, jsonOutput);
+
+                File.WriteAllText(outputPath, TotalAmount);
                 Console.WriteLine("File Saved Successfully");
                 Console.WriteLine("--------------------------------------------------------------------------------\n\n");
             }
