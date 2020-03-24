@@ -1,0 +1,25 @@
+{
+  "Appointments": [
+    {
+      "DoctorName": "Ravi Sonkar",
+      "AppointmentDateTime": "20/02/2020",
+      "PatientAppointments": [
+        {
+          "PatientName": "Vinayak",
+          "AppointmenID": 1
+        }
+      ]
+    },
+    {
+      "DoctorName": "Ravi Sonkar",
+      "AppointmentDateTime": "21/02/2020",
+      "PatientAppointments": [
+        {
+          "PatientName": "priyanka",
+          "AppointmenID": 1
+        }
+      ]
+    }
+  ]
+}
+

@@ -15,9 +15,7 @@ namespace ObjectOrientedProgramming.DeckOfCards
             {
                 for (int j = initial; j < end; j++)
                 {
-                    Console.WriteLine("{0} {1}",checkCards[i],checkCards[j]);
                     int result = checkCards[i].CompareTo(checkCards[j]);
-                    Console.WriteLine("Sort:{0}", result);
 
                     if (result < 0)
                     {

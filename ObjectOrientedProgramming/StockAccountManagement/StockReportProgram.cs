@@ -65,13 +65,34 @@ namespace ObjectOrientedProgramming.StockAccountManagement
 
                 string outputPath = @"D:/Github/CSharp/ObjectOrientedProgramming/StockAccountManagement/StockReportData.json";
 
-                using (StreamWriter sw = new StreamWriter(outputPath))
-                    sw.WriteLine(stockJsonData);
+                using StreamWriter sw = new StreamWriter(outputPath);
+                sw.WriteLine(stockJsonData);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
         }
+        //public static void UpdateDoctorToJson(List<Doctor> doctors)
+        //{
+        //    try
+        //    {
+        //        string filename = CliniqueManagementsProgram.DoctorPath;
+
+        //        Doctors doctors1 = new Doctors()
+        //        {
+        //            GetDoctors = doctors
+        //        };
+
+        //        string updateDoctorData = JsonConvert.SerializeObject(doctors1);
+
+        //        using StreamWriter streamWriter = new StreamWriter(filename);
+        //        streamWriter.WriteLine(updateDoctorData);
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine("Message: {0}", e.Message);
+        //    }
+        //}
     }
 }

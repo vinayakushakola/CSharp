@@ -1,4 +1,5 @@
 ﻿using ObjectOrientedProgramming.AddressBook;
+using ObjectOrientedProgramming.CliniqueManagement;
 using ObjectOrientedProgramming.DeckOfCards;
 using ObjectOrientedProgramming.Inventory_Data_Management;
 using ObjectOrientedProgramming.Inventory_Management;
@@ -24,7 +25,8 @@ namespace ObjectOrientedProgramming
                     Console.WriteLine("\t4. Stock Account Management");
                     Console.WriteLine("\t5. Deck Of Cards");
                     Console.WriteLine("\t6. Deck Of Cards Using Queue");
-                    Console.WriteLine("\t7. Exit");
+                    Console.WriteLine("\t7. Clinique Management");
+                    Console.WriteLine("\t8. Exit");
                     Console.Write("Enter Your Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -48,6 +50,9 @@ namespace ObjectOrientedProgramming
                             DeckOfCardsQueueProgram.DeckOfCardsQueue();
                             break;
                         case 7:
+                            CliniqueManagementProgram.CliniqueManagement();
+                            break;
+                        case 8:
                             flag = false;
                             break;
                         default:
