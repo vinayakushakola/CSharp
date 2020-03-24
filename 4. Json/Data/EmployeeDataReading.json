@@ -1,0 +1,34 @@
+{
+  "EmployeeInfo": [
+    {
+      "Name": "Vinayak",
+      "Age": 22,
+      "Department": "Development",
+      "Location": "Mumbai"
+    },
+    {
+      "Name": "Ravi",
+      "Age": 22,
+      "Department": "Development",
+      "Location": "Mumbaii"
+    },
+    {
+      "Name": "Amit",
+      "Age": 22,
+      "Department": "Accounts",
+      "Location": "Mumbai"
+    },
+    {
+      "Name": "Vassu",
+      "Age": 22,
+      "Department": "Networking",
+      "Location": "Mumbai"
+    },
+    {
+      "Name": "Sid",
+      "Age": 22,
+      "Department": "Development",
+      "Location": "Mumbai"
+    }
+  ]
+}

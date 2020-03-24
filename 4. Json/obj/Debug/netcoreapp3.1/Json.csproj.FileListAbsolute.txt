@@ -1,0 +1,26 @@
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.exe
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.csprojAssemblyReference.cache
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.AssemblyInfoInputs.cache
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.AssemblyInfo.cs
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.deps.json
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.runtimeconfig.json
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.runtimeconfig.dev.json
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.dll
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Json.pdb
+D:\Github\CSharp\Json\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.csproj.CopyComplete
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.dll
+D:\Github\CSharp\Json\obj\Debug\netcoreapp3.1\Json.pdb
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.exe
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.deps.json
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.runtimeconfig.json
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.runtimeconfig.dev.json
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.dll
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Json.pdb
+D:\Github\CSharp\4. Json\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.csprojAssemblyReference.cache
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.AssemblyInfoInputs.cache
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.AssemblyInfo.cs
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.csproj.CopyComplete
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.dll
+D:\Github\CSharp\4. Json\obj\Debug\netcoreapp3.1\Json.pdb
