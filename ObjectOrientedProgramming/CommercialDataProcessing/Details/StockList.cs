@@ -6,6 +6,6 @@ namespace ObjectOrientedProgramming.CommercialDataProcessing.Details
 {
     class StockList
     {
-        List<Stock> Stocks { get; set; }
+        public List<Stock> Stocks { get; set; }
     }
 }

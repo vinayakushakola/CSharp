@@ -6,6 +6,6 @@ namespace ObjectOrientedProgramming.CommercialDataProcessing.Details
 {
     class CustomerPurchasedList
     {
-        public List<CustomerPurchased> CustomerPurchasedlist { set; get; }
+        public List<CustomerPurchased> CustomerPurchasedlists { set; get; }
     }
 }

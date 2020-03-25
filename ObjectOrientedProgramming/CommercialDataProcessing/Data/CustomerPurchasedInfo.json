@@ -1,0 +1,28 @@
+{
+  "CustomerPurchasedlists": [
+    {
+      "Transaction_Id": "eba029cd-86ed-4acc-b3d2-18aa99951ead",
+      "UserName": "vinayak",
+      "ShareName": "Mrf",
+      "NoOfShares": "0.00026666667",
+      "Amount": "20",
+      "DateAndTime": "21-03-2020 05:53:04 PM"
+    },
+    {
+      "Transaction_Id": "093ea695-289f-41ed-b83c-7df25159ec35",
+      "UserName": "Vinayak",
+      "ShareName": "Mrf",
+      "NoOfShares": "13.333333",
+      "Amount": "1000000",
+      "DateAndTime": "25-03-2020 10:31:12 AM"
+    },
+    {
+      "Transaction_Id": "83151b16-0e44-4b68-9972-9342b148b45f",
+      "UserName": "Vinayak",
+      "ShareName": "Tcs",
+      "NoOfShares": "5.5555553",
+      "Amount": "10000",
+      "DateAndTime": "25-03-2020 10:31:27 AM"
+    }
+  ]
+}

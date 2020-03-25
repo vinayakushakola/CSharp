@@ -1,9 +1,1 @@
-{
-  "Customers": [
-    {
-      "ID": "2c589fe9-afab-4d1b-a0b0-60ae3247fddb",
-      "UserName": "Vinayak101"
-    }
-  ]
-}
-
+{"Customers":[{"ID":"2c589fe9-afab-4d1b-a0b0-60ae3247fddb","UserName":"Vinayak101"},{"ID":"7875bae7-13ea-4740-958a-7588e740e4b8","UserName":"Vinay"}]}

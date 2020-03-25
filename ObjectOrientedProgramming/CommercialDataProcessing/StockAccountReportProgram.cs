@@ -8,7 +8,7 @@ namespace ObjectOrientedProgramming.CommercialDataProcessing
     class StockAccountReportProgram
     {
         public static string CustomerPath = @"D:\Github\CSharp\ObjectOrientedProgramming\CommercialDataProcessing\Data\CustomerInfo.json";
-        public static string customerPurchasedPath = @"D:\Github\CSharp\ObjectOrientedProgramming\CommercialDataProcessing\Data\CustomerPurchasedInfo.json";
+        public static string CustomerPurchasedPath = @"D:\Github\CSharp\ObjectOrientedProgramming\CommercialDataProcessing\Data\CustomerPurchasedInfo.json";
         public static string StockPath = @"D:\Github\CSharp\ObjectOrientedProgramming\CommercialDataProcessing\Data\StockData.json";
         public static string customerSoldPath = @"D:\Github\CSharp\ObjectOrientedProgramming\CommercialDataProcessing\Data\CustomerSoldInfo.json";
 
@@ -18,6 +18,7 @@ namespace ObjectOrientedProgramming.CommercialDataProcessing
 
             int choice;
             bool flag = true;
+            string userName;
 
             List<Customer> customers = Utility.ReadCustomerData();
 
@@ -36,6 +37,22 @@ namespace ObjectOrientedProgramming.CommercialDataProcessing
                         StockAccount stockAccount = new StockAccount(CustomerPath);
                         break;
                     case 2:
+                        Console.WriteLine();
+                        customers = Utility.ReadCustomerData();
+                        Console.Write("Enter Your UserName: ");
+                        userName = Console.ReadLine();
+
+                        if (Utility.UserChecking(customers, userName))
+                        {
+                            Console.WriteLine("Login Successfull");
+                            flag = true;
+                            StockLoginProgram.StockLogin(userName);
+                        }
+                        else
+                        {
+                            Console.WriteLine("UserName not Found!");
+                            flag = true;
+                        }
                         break;
                     case 3:
                         flag = false;
