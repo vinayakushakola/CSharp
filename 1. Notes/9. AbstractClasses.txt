@@ -1,0 +1,16 @@
+Abstract Classes
+
+1. The abstract keyword is used to create abstract classes.
+2. An abstract class is incomplete and hence cannot be instantiated.
+3. An abstract class can only be used as base class.
+4. An abstract class cannot be sealed.
+5. An abstract class may contain abstract members(Methods, Poperties, Indexers & Events),
+   but not mandatory.
+6. A non-abstract class derived from an abstract class must provide implementation for all
+   inherited abstract members.
+
+If a class inherits an asbtract class, there are 2 options available for that class
+Option 1: Provide Implementation for all the abstract members inherited from the 
+	  base abstract class.
+Option 2: If the class does not wish to provide implementation for all the abstract members
+	  inherited from the abstract class, then the class has to be marked as abstract.

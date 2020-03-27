@@ -1,0 +1,18 @@
+Structs
+
+1. Structs are very similar to classes. We use struct keyword to create a struct.
+2. Just like classes structs can have fields, properties, constructors and methods.
+
+There are several Differences between classes and structs
+1. A struct is a value type where as a class is a reference type.
+2. Structs are stored on stack, where as classes are stored on the heap.
+3. Value types hold their value in memory where they are declared, but reference
+   types hold a reference to an object in memory.
+4. Value types are destroyed immediately after the scope is lost, where as for
+   reference types only the reference vaiable is destroyed after the scope is lost.
+   The object is later destroyed by garbage collector.
+5. When you copy a struct into another struct, a new copy of that struct gets created and
+   modifications on one struct will not affect the values contained by the other struct.
+6. When you copy a class into another class, we only get a copy of the reference variable.
+   Both the reference variables point to the same object on the heap. So, operations on
+   one variable will affect the values contained by the other reference variable.

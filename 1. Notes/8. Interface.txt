@@ -1,0 +1,18 @@
+Interfaces
+
+1. Interfaces can be created using interface keyword. Just like classes
+   interfaces also contains properties, methods, delegates or events, but
+   only declarations and no implementations.
+2. It is a compile time error to provide implementation for any interface member.
+3. Interface members are public by default and they don't allow explicit access modifiers.
+4. Interfaces cannot contain fields.
+5. If a class or a struct inherits from an interface, it must provide implementation for all
+   interface members. Otherwise, we get a compile error.
+6. A class or a struct can inherit from more than one interface at the same time, but where as,
+   a class cannot inherit from more than once class at the same time.
+7. Interfaces can inherit from other interfaces. A class that inherits this interface must provide
+   implementations for all interface member in the entire interface inheritance chain.
+8. We cannot create an instance of an interface, but an interface reference variable can point to a
+   derived class object.
+
+Interface Naming Convention: Interface names are prefixed with capital "I".
