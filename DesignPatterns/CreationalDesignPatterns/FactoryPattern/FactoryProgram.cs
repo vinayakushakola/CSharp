@@ -10,11 +10,13 @@ namespace DesignPatterns.CreationalDesignPatterns.FactoryPattern
         {
             try
             {
+                Console.WriteLine("Output: ");
                 string choice;
                 Console.Write("Enter what you want PC, Laptop or Server: ");
                 choice = Console.ReadLine();
-                    
-                Computer computer = ComputerFactory.GetComputer(choice);
+
+                ComputerFactory factory = new ComputerFactory();
+                Computer computer = factory.GetComputer(choice);
 
                 Console.WriteLine("\n");
                 Console.WriteLine(choice.ToUpper() + " Details \nCPU: {0}\nRam: {1}\nHDD: {2}\nSDD: {3} ", computer.GetCPU(),

@@ -6,7 +6,7 @@ namespace DesignPatterns.CreationalDesignPatterns.FactoryPattern
 {
     class ComputerFactory
     {
-        public static Computer GetComputer(string type)
+        public Computer GetComputer(string type)
         {
             Computer computer = null;
 
