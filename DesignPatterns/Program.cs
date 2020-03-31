@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.CreationalDesignPatterns;
+using DesignPatterns.StructuralDesignPatterns;
 using System;
 
 namespace DesignPatterns
@@ -27,6 +28,9 @@ namespace DesignPatterns
                     {
                         case 1:
                             CreationalDesignPatternProgram.CDPatternRun();
+                            break;
+                        case 2:
+                            StructuralDesignPatternsProgram.SDPatternRun();
                             break;
                         case 4:
                             flag = false;
