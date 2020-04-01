@@ -1,0 +1,4 @@
+Proxy - Middleman who delegates work and (does extra work too)
+
+1. A class represents functionality of another class.
+2. We create object having original object to interface its functionality to outer world. 

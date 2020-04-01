@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.StructuralDesignPatterns.AdapterDesignPattern;
 using DesignPatterns.StructuralDesignPatterns.FacadeDesignPattern;
+using DesignPatterns.StructuralDesignPatterns.ProxyDesignPattern;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,6 +20,7 @@ namespace DesignPatterns.StructuralDesignPatterns
                     Console.WriteLine("\n\t------------Structural Design Patterns------------\n");
                     Console.WriteLine("\t\t1. Adapter Design Pattern");
                     Console.WriteLine("\t\t2. Facade Design Pattern");
+                    Console.WriteLine("\t\t3. Proxy Design Pattern");
                     Console.WriteLine("\t\t4. Exit");
                     Console.Write("\tEnter your choice: ");
                     choice = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +33,9 @@ namespace DesignPatterns.StructuralDesignPatterns
                             break; ;
                         case 2:
                             AddressBookProgram.AddressBookRun();
+                            break;
+                        case 3:
+                            ProxyProgram.ProxyRun();
                             break;
                         case 4:
                             flag = false;
