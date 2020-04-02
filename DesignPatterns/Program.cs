@@ -1,4 +1,5 @@
-﻿using DesignPatterns.CreationalDesignPatterns;
+﻿using DesignPatterns.BehavioralDesignPatterns;
+using DesignPatterns.CreationalDesignPatterns;
 using DesignPatterns.StructuralDesignPatterns;
 using System;
 
@@ -31,6 +32,9 @@ namespace DesignPatterns
                             break;
                         case 2:
                             StructuralDesignPatternsProgram.SDPatternRun();
+                            break;
+                        case 3:
+                            BehavioralDesignPatternProgram.BDPatternRun();
                             break;
                         case 4:
                             flag = false;
