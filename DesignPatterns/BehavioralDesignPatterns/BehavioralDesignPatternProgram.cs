@@ -1,4 +1,6 @@
-﻿using DesignPatterns.BehavioralDesignPatterns.ObserverPattern;
+﻿using DesignPatterns.BehavioralDesignPatterns.MediatorPattern;
+using DesignPatterns.BehavioralDesignPatterns.ObserverPattern;
+using DesignPatterns.BehavioralDesignPatterns.VisitorPattern;
 using System;
 
 namespace DesignPatterns.BehavioralDesignPatterns
@@ -15,6 +17,8 @@ namespace DesignPatterns.BehavioralDesignPatterns
                 {
                     Console.WriteLine("\n\t------------Behavioral Design Patterns------------\n");
                     Console.WriteLine("\t\t1. Observer Pattern");
+                    Console.WriteLine("\t\t2. Visitor Pattern");
+                    Console.WriteLine("\t\t3. Mediator Pattern");
                     Console.WriteLine("\t\t4. Exit");
                     Console.Write("\tEnter your choice: ");
                     choice = Convert.ToInt32(Console.ReadLine());
@@ -24,6 +28,12 @@ namespace DesignPatterns.BehavioralDesignPatterns
                     {
                         case 1:
                             ObserverProgram.ObserverRun();
+                            break;
+                        case 2:
+                            VisitorProgram.VisitorRun();
+                            break;
+                        case 3:
+                            MediatorProgram.MediatorRun();
                             break;
                         case 4:
                             flag = false;
